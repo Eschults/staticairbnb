@@ -1,0 +1,5 @@
+<h1><%= @flat["name"] %></h1>
+
+<!-- <img src="<%# @flat["imageUrl"] %>" alt="<%# @flat["name"] %>" width="600"> -->
+
+<%= image_tag @flat["imageUrl"], width: 600, alt: @flat["name"] %>
